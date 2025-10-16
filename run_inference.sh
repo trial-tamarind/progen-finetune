@@ -2,7 +2,7 @@
 set -e # Exit immediately if a command fails
 
 # --- Argument Parsing ---
-if [ "$#" -ne 2 ]; then
+if [ "$#" -lt 2 ]; then
     echo "Usage:   ./run_inference.sh <base_model_size> <path_to_lora_adapter>"
     echo "Example: ./run_inference.sh progen2-small progen2-small-finetuned-on-your_data/best_model"
     exit 1
