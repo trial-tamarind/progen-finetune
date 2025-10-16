@@ -1,4 +1,5 @@
 downloads/*
+progen/
 *data/
 venv/
 .DS_Store
