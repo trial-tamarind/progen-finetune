@@ -47,10 +47,10 @@ python3 finetune_progen.py \
     --output_dir="progen2-medium-finetuned-lora" \
     --use_lora
     
-Note: Make sure the --model path matches the model you downloaded in Step 2.
+#### - Note: Make sure the --model path matches the model you downloaded in Step 2.
+#### - After finetuning, your new model adapter is saved (e.g., in progen2-medium-finetuned-lora/best_model)
 
 ## 5: Inference
-After finetuning, your new model adapter is saved (e.g., in progen2-medium-finetuned-lora/best_model). 
 #### - Use the sample.py script to generate sequences with it.
 
 python3 sample.py \
